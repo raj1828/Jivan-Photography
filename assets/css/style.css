@@ -1,6 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
 /*=============== VARIABLES CSS ===============*/
 :root {
   /*========== Colors ==========*/
@@ -155,6 +155,11 @@ img{
   nav ul li:hover a{
     color: cyan;
   }
+  nav ul .active a{
+    color: cyan;
+    text-decoration: underline 2px;
+    text-underline-offset: 11px;
+  }
   nav ul li i{
     font-size: 23px;
   }
@@ -179,6 +184,11 @@ img{
       display: block;
     }
     nav ul li.items:hover{
+      border-radius: 5px;
+      box-shadow: inset 0 0 5px #33ffff,
+                  inset 0 0 10px #66ffff;
+    }
+    nav ul li.items.active{
       border-radius: 5px;
       box-shadow: inset 0 0 5px #33ffff,
                   inset 0 0 10px #66ffff;
@@ -512,10 +522,10 @@ img{
   }
   .product .itemBox{
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 5px;
-    display: bolck;
+    display: block;
     transition: all 0.3s ease;
   }
   .product  .hide{
@@ -530,7 +540,6 @@ img{
     object-fit: cover;
     transition: all .3s ease;
     overflow: hidden;
-    transition: all 0.3s ease;
   }
   .product .itemBox img:hover{
     transform: scale(1.1);
@@ -812,6 +821,163 @@ img{
   background: #151515;
 
 }
+
+  /*  ================= SERVICE PAGE ==================== */
+  .services{
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    margin: 5rem;
+  }
+  .section-intro{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .info{
+    width: 50%;
+  }
+  
+  
+  .info .title h1{
+    font-family: 'Nuosu SIL', serif;
+    font-size: 4rem;
+    font-weight: 200;
+  }
+  .info  h4{
+    font-family: 'Nuosu SIL', serif;
+    font-size: 1.25rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #000;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .info p{
+    margin-bottom: 40px;
+    line-height: 30px;
+    font-family: 'Nuosu SIL', serif;
+    font-weight: 500;
+    color: 17px;
+  }
+  .info .big-p p{
+    color: #000;
+    font-size: x-large;
+    font-weight: 500;
+  }
+  .info-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+  }
+  .services .info-img img{
+    width: 500px;
+    height: 600px;
+  }
+
+  /*  ================= SERVICE PAGE TYPES ==================== */
+  .types{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .type-cont{
+    margin: 1.5rem;
+    background-size: cover;
+    object-fit: cover;
+    width: 350px;
+    height: 350px; 
+    object-fit: cover;
+    transition: all .3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .type-cont img{
+    width: 300px;
+    height: 300px;
+
+  }
+  .type-cont h1{
+    font-family: 'Nuosu SIL', serif;
+    margin: 13px 2px 13px 2px;
+  } 
+  .type-cont p{
+    font-family: 'Nuosu SIL', serif;
+    width: 300px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  @media all and (max-width: 900px){
+    .section-intro{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .info{
+      width: 100%;
+    }
+    .info-img{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: .75rem;
+    }
+    .section-intro .info-img img{
+      width: 400px;
+      height: 450px;
+    }
+  }
+  @media all and (max-width: 600px){
+    .section-intro{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .info{
+      width: 100%;
+    }
+    .info-img{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: .75rem;
+    }
+    .section-intro .info-img img{
+      width: 300px;
+      height: 350px;
+    }
+    .info .title h1{
+      font-size: 2.5rem;
+      font-weight: 200;
+    }
+    .info  h4{
+      font-size: 1rem;
+      font-weight: 200;
+      letter-spacing: 1px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .info p{
+      margin-bottom: 20px;
+      line-height: 20px;
+      font-weight: 500;
+    }
+    .info .big-p p{
+      font-size: large;
+      font-weight: 500;
+    }
+  }
+
+
+
 
 
 
