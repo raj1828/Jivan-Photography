@@ -630,28 +630,28 @@ img{
     -moz-box-shadow: 10px 10px 42px -3px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 42px -3px rgba(0,0,0,0.75);
   }
-  
-  
+
+
   .contact-in {
     padding: 40px 30px;
   }
-  
+
   .contact-in:nth-child(1) {
     flex: 30%;
     background: url(../images/1.jpg);
     color: #fff;
   }
-  
+
   .contact-in:nth-child(2) {
     flex: 45%;
     /* background: #c31432; */
   }
-  
+
   .contact-in:nth-child(3) {
     flex: 25%;
     padding: 0;
   }
-  
+
   .contact-in h1 {
     font-size: 24px;
     color: #000;
@@ -659,13 +659,13 @@ img{
     font-weight: 500;
     margin-bottom: 20px;
   }
-  
+
   .contact-in h2 {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 15px;
   }
-  
+
   .contact-in h2 i {
     font-size: 16px;
     width: 40px;
@@ -677,7 +677,7 @@ img{
     line-height: 40px;
     text-align: center;
   }
-  
+
   .contact-in p {
     font-size: 14px;
     color: #000;
@@ -685,19 +685,19 @@ img{
     font-weight: 300;
     margin-bottom: 20px;
   }
-  
+
   .contact-in ul {
     padding: 0;
     margin: 0;
   }
-  
+
   .contact-in ul li {
     list-style: none;
     display: inline-block;
     margin-right: 5px;
     margin-top: 5px;
   }
-  
+
   .contact-in ul li a {
     display: block;
     width: 30px;
@@ -706,18 +706,18 @@ img{
     background: #fff;
     border-radius: 50px;
   }
-  
+
   .contact-in ul li a i {
     font-size: 14px;
     line-height: 30px;
     color: #000;
   }
-  
+
   .contact-in form {
     width: 100%;
     height: auto;
   }
-  
+
   .contact-in-input {
     width: 100%;
     height: 40px;
@@ -731,11 +731,11 @@ img{
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
   }
-  
+
   .contact-in-input::placeholder {
     color: #fff;
   }
-  
+
   .contact-in-textarea {
     width: 100%;
     height: 140px;
@@ -750,11 +750,11 @@ img{
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
   }
-  
+
   .contact-in-textarea::placeholder {
     color: #fff;
   }
-  
+
   .contact-in-btn {
     width: 100%;
     height: 40px;
@@ -767,40 +767,40 @@ img{
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
   }
-  
+
   .contact-in iframe {
     width: 100%;
     height: 100%;
   }
-  
+
   @media only screen and (max-width:480px) {
     .contact-in:nth-child(1) {
       flex: 50%;
     }
-  
+
     .contact-in:nth-child(2) {
       flex: 50%;
     }
-  
+
     .contact-in:nth-child(3) {
       flex: 100%;
     }
-  
+
   }
-  
+
   @media only screen and (max-width:360px) {
     .contact-in:nth-child(1) {
       flex: 50%;
     }
-  
+
     .contact-in:nth-child(2) {
       flex: 50%;
     }
-  
+
     .contact-in:nth-child(3) {
       flex: 100%;
     }
-  
+
   }
 
 
@@ -815,9 +815,9 @@ img{
 
 }
 .container-foot{
-  max-width: 100%;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  width: 100%;
+  /* margin-left: 1.5rem; */
+  /* margin-right: 1.5rem; */
   background: #151515;
 
 }
@@ -837,8 +837,8 @@ img{
   .info{
     width: 50%;
   }
-  
-  
+
+
   .info .title h1{
     font-family: 'Nuosu SIL', serif;
     font-size: 4rem;
@@ -891,7 +891,7 @@ img{
     background-size: cover;
     object-fit: cover;
     width: 350px;
-    height: 350px; 
+    height: 350px;
     object-fit: cover;
     transition: all .3s ease;
     overflow: hidden;
@@ -906,7 +906,7 @@ img{
   .type-cont h1{
     font-family: 'Nuosu SIL', serif;
     margin: 13px 2px 13px 2px;
-  } 
+  }
   .type-cont p{
     font-family: 'Nuosu SIL', serif;
     width: 300px;
@@ -976,6 +976,76 @@ img{
     }
   }
 
+
+  .types .type-cont input{
+    background-color: #007bff;
+    padding: 2px 0 2px 10px;
+    width: 14rem;
+    cursor: pointer;
+    font-family: 'Nuosu SIL', serif;
+    padding: 13px 2px 13px 0px;
+    background: none;
+    outline: none;
+    font-size: 1.8rem;
+    border: none;
+    overflow: hidden;
+    margin-top: 1px;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    background-position: 0 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #007bff 50%);
+    transition: background-position 0.5s ease-out 0s;
+    background-size: 200.22% auto;
+  }
+  .types .type-cont input:hover{
+
+    background-position: -99.99% 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #419dff 50%);
+  }
+  .types .type-cont input:hover{
+    color: #fff;
+  }
+
+  .title{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 3rem auto;
+  }
+  .title h1{
+    font-family: 'Nuosu SIL', serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: var(--body-font);
+  }
+/* 
+  .hidden{
+     margin: 3rem; 
+  } */
+  .hidden .innerHidden{
+    
+    justify-content: center;
+    padding: 1rem 0 3rem 0;
+    margin: 3rem;
+    -webkit-box-shadow: 10px 10px 42px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 42px -3px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 42px -3px rgba(0,0,0,0.75);
+  }
+  .hidden .innerHidden img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .hidden .innerHidden h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2.35rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-family: 'Nuosu SIL', serif;
+  }
 
 
 

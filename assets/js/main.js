@@ -60,3 +60,79 @@ function preview(element) {
     document.querySelector("body").style.overflow = "auto"; //show the scroll bar on body
   };
 }
+
+
+
+// Hidden Scroable Div
+
+function showDiv(){
+  // document.getElementById('hiddenDivs').style.display = "block";
+  var x = document.getElementById('hiddenDivs');
+  if(x.style.display === "none")
+  {
+    x.style.display = "flex";
+  }
+  else{
+    x.style.display = "none";
+  }
+}
+
+function showDiv2(){
+  // document.getElementById('hiddenDivs').style.display = "block";
+  var x = document.getElementById('hiddenDivs2');
+  if(x.style.display === "none")
+  {
+    x.style.display = "flex";
+  }
+  else{
+    x.style.display = "none";
+  }
+}
+
+function showDiv3(){
+  // document.getElementById('hiddenDivs').style.display = "block";
+  var x = document.getElementById('hiddenDivs3');
+  if(x.style.display === "none")
+  {
+    x.style.display = "flex";
+  }
+  else{
+    x.style.display = "none";
+  }
+}
+
+function showDiv4(){
+  // document.getElementById('hiddenDivs').style.display = "block";
+  var x = document.getElementById('hiddenDivs4');
+  if(x.style.display === "none")
+  {
+    x.style.display = "flex";
+  }
+  else{
+    x.style.display = "none";
+  }
+}
+
+function showDiv5(){
+  // document.getElementById('hiddenDivs').style.display = "block";
+  var x = document.getElementById('hiddenDivs5');
+  if(x.style.display === "none")
+  {
+    x.style.display = "flex";
+  }
+  else{
+    x.style.display = "none";
+  }
+}
+
+function showDiv6(){
+  // document.getElementById('hiddenDivs').style.display = "block";
+  var x = document.getElementById('hiddenDivs6');
+  if(x.style.display === "none")
+  {
+    x.style.display = "flex";
+  }
+  else{
+    x.style.display = "none";
+  }
+}
