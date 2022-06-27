@@ -898,6 +898,18 @@ img{
     display: flex;
     flex-direction: column;
   }
+  .type-cont2{
+    margin: 1.5rem;
+    background-size: cover;
+    object-fit: cover;
+    width: 499px;
+    height: 267px;
+    object-fit: cover;
+    transition: all .3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
   .type-cont img{
     width: 300px;
     height: 300px;
