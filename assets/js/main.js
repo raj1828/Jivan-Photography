@@ -65,6 +65,14 @@ function preview(element) {
 
 // Hidden Scroable Div
 
+function hideDiv(){
+  var x = document.getElementById('hiddenDivs');
+  var y = document.getElementById('hiddenDivs2');
+
+  x.style.display = "none";
+  y.style.display = "none";
+}
+
 function showDiv(){
   // document.getElementById('hiddenDivs').style.display = "block";
   var x = document.getElementById('hiddenDivs');
